@@ -1,0 +1,30 @@
+# Thank you for developing with Blueprint.
+# For documentation about conf.yml, refer to ptero.shop/dev/conf.
+
+info:
+  name: "Create & Beyond Theme"
+  identifier: "cnb-theme"
+  description: "A dark theme for the Create & Beyond panel."
+  flags: ""
+  version: "v0.0.1"
+  target: "panel"
+  author: "KaenguruuDev"
+  icon: "assets/Create n Beyond.png"
+  website: "https://github.com/KaenguruuDev"
+
+admin:
+  view: "admin/view.blade.php"
+  controller: ""
+  css: "admin/admin.style.css"
+  wrapper: ""
+
+dashboard:
+  wrapper: ""
+  css: "client/client.style.css"
+
+data:
+  directory: ""
+  public: ""
+
+database:
+  migrations: ""
