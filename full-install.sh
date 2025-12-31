@@ -34,6 +34,7 @@ if [ ! -d "$PTERODACTYL_DIRECTORY/.blueprint" ]; then
   touch $PTERODACTYL_DIRECTORY/.blueprintrc
 
   chmod +x $PTERODACTYL_DIRECTORY/blueprint.sh
+  ./$PTERODACTYL_DIRECTORY/blueprint.sh
   exit 1
 fi
 
@@ -46,6 +47,7 @@ mkdir -p $PTERODACTYL_DIRECTORY/.blueprint/dev/client
 cp -r admin/* $PTERODACTYL_DIRECTORY/.blueprint/dev/admin/
 cp -r assets/* $PTERODACTYL_DIRECTORY/.blueprint/dev/assets/
 cp -r client/* $PTERODACTYL_DIRECTORY/.blueprint/dev/client/
+cp conf.yml $PTERODACTYL_DIRECTORY/.blueprint/dev/conf.yml
 
 cd $PTERODACTYL_DIRECTORY/.blueprint/dev
 

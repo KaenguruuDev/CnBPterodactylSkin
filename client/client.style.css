@@ -54,6 +54,15 @@ button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI,
 div.haunnZ,
 input.ZkNLd:not([type="checkbox"]):not([type="radio"]) {
   border-radius: var(--border-radii) !important;
+  background-color: var(--item-color) !important;
+  border-color: var(--item-secondary-color) !important;
+  color: #e5e5e5 !important;
+}
+
+input.ZkNLd:focus:not([type="checkbox"]):not([type="radio"]) {
+  background-color: var(--item-secondary-color) !important;
+  border-color: #d7970f !important;
+  color: #e5e5e5 !important;
 }
 
 
@@ -74,6 +83,16 @@ label.Label-sc-g780ms-0.dqkKHi {
 input.Input-sc-19rce1w-0.fFYzlR,
 input.floJYL:not([type="checkbox"]):not([type="radio"]) {
   border-radius: var(--border-radii) !important;
+  background-color: var(--item-color) !important;
+  border-color: var(--item-secondary-color) !important;
+  color: #e5e5e5 !important;
+}
+
+input.Input-sc-19rce1w-0.fFYzlR:focus,
+input.floJYL:focus:not([type="checkbox"]):not([type="radio"]) {
+  background-color: var(--item-secondary-color) !important;
+  border-color: #d7970f !important;
+  color: #e5e5e5 !important;
 }
 
 
@@ -213,6 +232,15 @@ div.style-module_2XbmHEcn {
 input.style-module_3TDo--Tn {
   border-bottom-left-radius: var(--border-radii) !important;
   border-bottom-right-radius: var(--border-radii) !important;
+  background-color: var(--item-color) !important;
+  border-color: var(--item-secondary-color) !important;
+  color: #e5e5e5 !important;
+}
+
+input.style-module_3TDo--Tn:focus {
+  background-color: var(--item-secondary-color) !important;
+  border-color: #d7970f !important;
+  color: #e5e5e5 !important;
 }
 
 
@@ -414,6 +442,18 @@ code.text-gray-100 {
   border-radius: var(--border-radii);
 }
 
+textarea.kKFWRA {
+  background-color: var(--item-color);
+  border-color: var(--item-secondary-color);
+  color: #e5e5e5;
+}
+
+textarea.kKFWRA:focus {
+  background-color: var(--item-secondary-color);
+  border-color: #d7970f;
+  color: #e5e5e5;
+}
+
 
 /* Startup */
 
@@ -421,6 +461,16 @@ p.ekbHAG,
 select.dupyoa,
 input.jqTCDz:not([type="checkbox"]):not([type="radio"]) {
   border-radius: var(--border-radii);
+  background-color: var(--item-color);
+  border-color: var(--item-secondary-color);
+  color: #e5e5e5;
+}
+
+select.dupyoa:focus,
+input.jqTCDz:focus:not([type="checkbox"]):not([type="radio"]) {
+  background-color: var(--item-secondary-color);
+  border-color: #d7970f;
+  color: #e5e5e5;
 }
 
 

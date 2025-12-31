@@ -113,6 +113,17 @@ select.form-control,
 textarea.form-control,
 input.form-control {
   border-radius: var(--border-radii);
+  background-color: var(--item-color);
+  border-color: var(--item-secondary-color);
+  color: #e5e5e5;
+}
+
+input.form-control:focus,
+select.form-control:focus,
+textarea.form-control:focus {
+  background-color: var(--item-secondary-color);
+  border-color: #d7970f;
+  color: #e5e5e5;
 }
 
 @media (max-width:991px) {
