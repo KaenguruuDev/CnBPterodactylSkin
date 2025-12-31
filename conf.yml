@@ -16,7 +16,7 @@ admin:
   view: "admin/view.blade.php"
   controller: ""
   css: "admin/admin.style.css"
-  wrapper: ""
+  wrapper: "admin/wrapper.blade.php"
 
 dashboard:
   wrapper: ""
