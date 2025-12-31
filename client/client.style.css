@@ -175,14 +175,14 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwb
 /* Server list online color */
 
 a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz {
-  background: #002b3d;
+  background: #1a3d2f;
 }
 
 
 /* Server list online status */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe .status-bar {
-  background: #2f994c;
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz .status-bar {
+  background: #2f994c !important;
   opacity: 1;
 }
 
@@ -197,7 +197,7 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVi
 /* Server list starting status */
 
 a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB .status-bar {
-  background: repeating-linear-gradient(45deg, #d7970f, #d7970f 10px, #b8800c 10px, #b8800c 20px);
+  background: repeating-linear-gradient(45deg, #d7970f, #d7970f 10px, #b8800c 10px, #b8800c 20px) !important;
   opacity: 1;
 }
 
