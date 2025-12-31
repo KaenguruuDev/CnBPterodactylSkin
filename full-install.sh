@@ -6,7 +6,7 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-if [ ! -d "$PTERODACTYL_DIRECTORY/blueprint" ]; then
+if [ ! -d "$PTERODACTYL_DIRECTORY/.blueprint" ]; then
   echo "Blueprint is not installed in the specified Pterodactyl directory. Installing..."
   sudo apt install -y curl wget unzip
 
