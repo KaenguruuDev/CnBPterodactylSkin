@@ -3,13 +3,13 @@
 
 info:
   name: "Create & Beyond Theme"
-  identifier: "cnb-theme"
+  identifier: "cnbtheme"
   description: "A dark theme for the Create & Beyond panel."
   flags: ""
   version: "v0.0.1"
   target: "panel"
   author: "KaenguruuDev"
-  icon: "assets/Create n Beyond.png"
+  icon: "assets/Create-n-Beyond.png"
   website: "https://github.com/KaenguruuDev"
 
 admin:
