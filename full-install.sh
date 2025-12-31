@@ -51,4 +51,4 @@ cp conf.yml $PTERODACTYL_DIRECTORY/.blueprint/dev/conf.yml
 
 cd $PTERODACTYL_DIRECTORY/.blueprint/dev
 
-blueprint build
+blueprint -build
